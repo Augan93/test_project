@@ -32,7 +32,7 @@ class Car(BaseModel):
     )
 
     def __str__(self):
-        return '{} - {}'.format(self.owner.username,
+        return '{} - {}'.format(self.color,
                                 self.car_id)
 
     class Meta:

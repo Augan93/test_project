@@ -1,1 +1,1 @@
-# bookservice
+# Simple CRUD app
