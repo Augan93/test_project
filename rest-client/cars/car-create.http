@@ -1,0 +1,14 @@
+POST http://localhost:8000/api/cars/ HTTP/1.1
+content-type: application/json
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNTU2OTgyMTAzLCJqdGkiOiJiNzg0MDVkMThiZDI0ZWZjYThjNjVlYTkwODU3ZjUwMCIsInVzZXJfaWQiOjF9.bD9SfP7pN1laaHeaZZZzrxHOF1JiGvK3W91h2ORylf4
+
+{
+    "color": "red",
+    "year": 2015,
+    "manufacturer": "Audi"
+}
+
+###
+
+
+
